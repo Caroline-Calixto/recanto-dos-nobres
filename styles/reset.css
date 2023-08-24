@@ -1,0 +1,131 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default margin and padding on body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default styles on headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Reset links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove underlines from links */
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Reset form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  background: none;
+  color: inherit;
+  outline: none;
+  appearance: none;
+}
+
+/* Reset button styling */
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
+/* Remove default styles on list elements */
+li {
+  list-style: none;
+}
+
+/* Reset images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default padding on table cells */
+td,
+th {
+  padding: 0;
+}
+
+/* Remove default styles on blockquote */
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset preformatted text */
+pre {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+/* Reset horizontal rule */
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+/* Remove default styling on address */
+address {
+  font-style: normal;
+}
+
+/* Reset focus styles on clickable elements */
+a,
+button,
+input,
+select,
+textarea {
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
