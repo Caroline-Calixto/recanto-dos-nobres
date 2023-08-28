@@ -1,0 +1,27 @@
+.about {
+    min-height: 1vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    padding-top: 200px;
+}
+
+.about-title {
+    color: #377D67;
+}
+
+.about-paragraph {
+    margin-top: 16px;
+}
+
+.about__image {
+    width: 436px;
+    height: 507px;
+    margin-left: 48px;
+    padding-top: 200px;
+}

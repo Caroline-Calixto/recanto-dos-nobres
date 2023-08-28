@@ -1,0 +1,20 @@
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 1vh;
+    background-image: url(../imagens/img-banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__content {
+    display: flex;
+    margin-left: 24px;
+    flex-direction: column;
+    padding-top: 200px;
+    max-width: 600px;
+}
+
+.banner-button {
+    margin-bottom: 24px;
+}

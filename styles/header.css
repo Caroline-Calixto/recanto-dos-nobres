@@ -43,19 +43,7 @@
     color: #489681;
 }
 
-.contact-button {
-    display: flex;
-    align-items: center;
+.header-button {
     position: absolute;
-    right: 82px;
-    top: 64px;
-    border: 2px solid #377d67;
-    width: 150px;
-    height: 50px;
-    justify-content: center;
-}
-
-.contact-button :hover {
-    background-color: #489681;
-    color: #23282d;
+    right: 24px;
 }
