@@ -1,0 +1,28 @@
+.cta {
+    width: 100%;
+    height: 480px;
+    background-color: #377d67;
+    margin-top: 109px;
+}
+
+.cta__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 132px;
+    color: #fff;
+}
+
+.cta__content span {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.cta__content p {
+    font-size: 42px;
+}
+
+.cta-button {
+    margin-top: 40px;
+}

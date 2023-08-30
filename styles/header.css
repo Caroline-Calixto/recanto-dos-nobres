@@ -1,23 +1,18 @@
-.top-bar {
+.header__top-bar {
     background-color: #489681;
-    height: 32px;
+    height: 24PX;
     width: 100%;
 }
 
-.container {
+.header__menu {
     display: flex;
-    padding: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .logotipo {
     width: 204px;
     margin: 0;
-}
-
-.social-media {
-    display: flex;
-    align-items: center;
-    margin-left: 24px;
 }
 
 .nav-links {
@@ -39,11 +34,20 @@
     color: #23282d;
 }
 
-.nav-links :hover {
+.nav-links li :hover {
     color: #489681;
+    font-weight: bold;
 }
+
+.nav-links li:first-child a {
+    text-decoration: none;
+    color: #489681;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 
 .header-button {
     position: absolute;
     right: 24px;
+    top: 32px;
 }

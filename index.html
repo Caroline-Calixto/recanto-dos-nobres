@@ -11,30 +11,25 @@
         <link href="/styles/header.css" rel="stylesheet">
         <link href="/styles/banner.css" rel="stylesheet">
         <link href="/styles/about.css" rel="stylesheet">
+        <link href="/styles/service.css" rel="stylesheet">
+        <link href="/styles/testimonial.css" rel="stylesheet">
+        <link href="/styles/cta.css" rel="stylesheet">
+        <link href="/styles/footer.css" rel="stylesheet">
 
     </head>
 
     <body>
         <!--  HEADER SECTION -->
         <header>
-            <div class="top-bar">
-                <ul class="social-media">
-                    <li><a href="#"><img src="/imagens/facebook.svg"
-                                alt="facebook"></a></li>
-                    <li><a href="#"><img src="/imagens/instagram.svg"
-                                alt="instagram"></a></li>
-                    <li><a href="#"><img src="/imagens/whatsapp.svg"
-                                alt="whatsapp"></a></li>
-                </ul>
-
-            </div>
-            <div class="container">
+            <div class="header__top-bar"></div>
+            <div class="header__menu">
                 <div class="logotipo">
                     <img src="/imagens/logotipo.png" alt="Logotipo">
                 </div>
                 <nav class="nav-links">
                     <ul>
-                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
                         <li><a href="#">Serviços</a></li>
                         <li><a href="#">Estadia</a></li>
                         <li><a href="#">Mídia</a></li>
@@ -49,12 +44,12 @@
         <!--  BANNER SECTION -->
         <section class="banner">
             <div class="banner__content">
-                <h1 class="title">We Make a Difference</h1>
-                <h2 class="subtitle">Consulting Agency For Every Business</h2>
+                <h1 class="title">Renove sua Qualidade de Vida</h1>
+                <h2 class="subtitle">Sua Casa para uma Vida Melhor</h2>
                 <br>
-                <p class="paragraph">We design an elegant set of WordPress
-                    Themes & Plugins
-                    that help you create the website you always wanted!</p>
+                <p class="paragraph"> O Recanto dos Nobres é o ambiente familiar
+                    perfeito para você. Estamos assegurando um espaço alegre e
+                    agradável para todos os nossos visitantes.</p>
                 <br>
                 <button class="banner-button standard-button">Fale Conosco</button>
             </div>
@@ -64,8 +59,10 @@
         <section class="about">
             <div class="about__content">
                 <h2 class="about-title title">Sobre nós</h2>
-                <h3 class="subtitle">Consulting Agency For Every Business</h3>
-                <p class="about-paragraph paragraph">Criada em 2005, a Casa de Repouso Residencial Recanto dos
+                <h3 class="subtitle">Uma história de cuidado, conforto e
+                    bem-estar</h3>
+                <p class="about-paragraph paragraph">Criada em 2005, a Casa de
+                    Repouso Residencial Recanto dos
                     Nobres
                     é um espaço destinado ao idoso na qual apresenta um serviço
                     diferenciado. Foi criada, é administrada e tem como grande
@@ -93,6 +90,129 @@
             </div>
         </section>
 
-    </body>
+        <!--  SERVICES SECTION -->
+        <section class="service">
+            <div class="service__title title">Nossos serviços</div>
+            <div class="service__subtitle subtitle">Somos excelência no
+                atendimento</div>
+            <div class="slider">
+                <div class="card">
+                    <img class="card__image" src="./imagens/card-teste.png" alt>
+                    <div class="card__content">
+                        <h3 class="card__title"> Titulo do Card</h3>
+                        <span class="card__description">There are many
+                            variations of
+                            passages of Lorem Ipsum available, but the majority
+                            have</span>
+                    </div>
 
-</html>
+                </div>
+            </section>
+            <!--  TESTIMONIAL SECTION -->
+            <section class="testimonial">
+                <h2 class="testimonial__title service__title title">Histórias de
+                    Carinho e Gratidão</h2>
+                <p class="testimonial__paragraph paragraph">Descubra como a Casa
+                    de Repouso
+                    Recanto dos Nobres Impactou Vidas e Criou Laços Especiais</p>
+
+                <div class="testimonial__card__container">
+
+                    <div class="testimonial__card">
+                        <img src="./imagens/aspas.svg" alt>
+                        <div class="testimonial__card__content">
+                            <span>
+                                Casa de repouso tem dado a minha sogra, que já
+                                está internada há mais de um ano. Eles seguem
+                                todo o tratamento que a situação dela exige. Sem
+                                mais, agradeço a oportunidade. </span>
+                            <div class="line"></div>
+                            <span>Evangelista da Silva Aruto</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card">
+                        <img src="./imagens/aspas.svg" alt>
+                        <div class="testimonial__card__content">
+                            <span>The experts easily identified the
+                                wand guided us through the
+                                creation of the c.</span>
+                            <div class="line"></div>
+                            <span>Vincent Smith</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card">
+                        <img src="./imagens/aspas.svg" alt>
+                        <div class="testimonial__card__content">
+                            <span>The experts easily identified the
+                                wand guided us through the
+                                creation of the c.</span>
+                            <div class="line"></div>
+                            <span>Vincent Smith</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--  CTA SECTION -->
+            <section class="cta">
+                <div class="cta__content">
+                    <span>WE CUSTOM BUILD WEBSITES TO MAKE YOUR BRAND STAND OUT
+                        FROM THE NOISE
+                    </span>
+                    <p>We start by listening and let that shape our
+                        design process, with our clients as partners
+                    </p>
+
+                    <button class="cta-button white-button">Fale Conosco</button>
+
+                </div>
+            </section>
+
+            <!--  FOOTER SECTION -->
+            <section>
+                <footer>
+                    <div class="footer">
+                        <div class="footer__column__left">
+                            <ul class="footer__links">
+                                <li class="link"><a href="#">Home</a> </li>
+                                <li class="link"><a href="#">Quem Somos</a></li>
+                                <li class="link"><a href="#">Serviços</a></li>
+                                <li class="link"><a href="#">Estadia</a></li>
+                                <li class="link"><a href="#">Mídia</a></li>
+                                <li class="link"><a href="#">Mapa do Site</a></li>
+                            </ul>
+
+                            <div class="location">
+                                <h4>Localização</h4>
+                                <a
+                                    href="https://goo.gl/maps/D6SQHTbuubDb1Rk39">
+                                    <p>Rua Oiti, 319 - Vila Rejente Feijó</p>
+                                    <p>São Paulo/SP - CEP 03347-000</p>
+                                    <p>Próximo ao Shopping Anália Franco</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer__column__right">
+                            <ul>
+                                <li>Casa de repouso na vila carrão</li>
+                                <li>Casa de repouso mooca</li>
+                                <li>Casa de repouso vila formosa</li>
+                                <li>Melhores casas de repouso SP</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__copyright">
+                        <p>Copyright Casa de Repouso Recanto dos Nobres.
+                            Todos os
+                            direitos reservados.</p>
+                    </div>
+                </footer>
+            </section>
+
+        </body>
+
+    </html>

@@ -1,22 +1,24 @@
 * {
     font-family: sans-serif;
-    color: #23282D;
 }
 
 .title {
     margin-bottom: 12px;
     font-size: 18px;
     font-weight: 600;
+    color: #23282d;
 }
 
 .subtitle {
     font-size: 64px;
     font-weight: 400;
     line-height: 1;
+    color: #050D0F;
 }
 
 .paragraph {
     font-size: 16px;
+    color: #050D0F;
 }
 
 .standard-button {
@@ -25,13 +27,34 @@
     justify-content: center;
     width: 151px;
     height: 52px;
-    background-color: #377D67;
+    background-color: #377d67;
     color: #fff;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .standard-button:hover {
-    background-color: #4CAE89;
+    background-color: #4cae89;
+}
+
+
+.white-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 151px;
+    height: 52px;
+    background-color: #fff;
+    color: #39364E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.white-button:hover {
+    background-color: #4B6FAD;
+    color: #fff;
 }
