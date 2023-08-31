@@ -1,16 +1,17 @@
-.banner {
+.banner__image {
     position: relative;
     width: 100%;
     max-height: 488px;
-    background-image: url(../imagens/img-banner.png);
     background-size: cover;
     background-position: center;
 }
 
 .banner__content {
     display: flex;
-    margin-left: 24px;
+    margin-left: 128px;
     flex-direction: column;
+    position: absolute;
+    top: 128px;
     padding-top: 32px;
     max-width: 600px;
 }
@@ -18,3 +19,12 @@
 .banner-button {
     margin-bottom: 24px;
 }
+
+@media screen and (max-width: 730px) { 
+
+    .banner__content {
+        padding: 32px;
+        margin-left: 0;
+    }
+}
+

@@ -1,53 +1,126 @@
-.header__top-bar {
-    background-color: #489681;
-    height: 24PX;
-    width: 100%;
+header {
+    background-color: #fff;
+    box-shadow: 0px 3px 10px #464646;
 }
 
-.header__menu {
+.nav-bar {
     display: flex;
-    padding-right: 24px;
-    padding-left: 24px;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logotipo {
-    width: 204px;
-    margin: 0;
-}
-
-.nav-links {
     display: flex;
     align-items: center;
-    gap: 32px;
-    margin-left: 200px;
 }
 
-/* Estilos para a navegação central */
-.nav-links ul {
-    list-style: none;
+.logotipo h1 {
+    color: #464646;
+}
+
+.nav-list {
     display: flex;
-    gap: 20px;
+    align-items: center;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: #23282d;
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
-.nav-links li :hover {
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link:hover {
     color: #489681;
-    font-weight: bold;
 }
 
-.nav-links li:first-child a {
+.nav-link {
     text-decoration: none;
-    color: #489681;
-    font-weight: bold;
-    text-decoration: underline;
-  }
+    font-size: 1.15rem;
+    color: #464646;
+    font-weight: 400;
+}
 
-.header-button {
-    position: absolute;
-    right: 24px;
-    top: 32px;
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu {
+        position: absolute;
+        z-index: 1000;
+        background-color: #fff;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        margin-left: 24px;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+        width: 100%;
+    }
 }
