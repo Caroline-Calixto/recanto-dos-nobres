@@ -7,16 +7,12 @@
     text-align: center;
 }
 
-.midia__page__header {
-
-}
-
 .midia__page__header__title {
     color: #377d67;
 }
 
 .midia__page__header__description {
-
+    margin: 32px;
 }
 .container{
     width: 100% ;

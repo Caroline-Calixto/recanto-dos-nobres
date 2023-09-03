@@ -87,10 +87,12 @@ body {
 }
 
 .divider {
-    width: calc(100% - 64px);
-    position: relative;
+    width: 100%;
+    background-color: #424242;
+    position: absolute;
+    bottom: 0;
     height: 1px;
-    background-color: #ccc;
+    margin-bottom: 64px;
   }
 
 @media screen and (max-width: 730px) {
@@ -111,5 +113,9 @@ body {
     .blue-button {
         display: block;
         width: 100%;
+    }
+
+    .divider {
+        width: calc(100% - 64px);
     }
 }

@@ -16,7 +16,7 @@
     flex-direction: column;
     position: absolute;
     top: 128px;
-    padding-top: 32px;
+    padding-top: 64px;
     max-width: 600px;
 }
 
@@ -29,7 +29,7 @@
     .banner__content {
         padding: 32px;
         margin-left: 0;
-        margin-top: 32px;
+        margin-top: 56px;
     }
 
     .banner__image { 
