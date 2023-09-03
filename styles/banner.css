@@ -6,6 +6,10 @@
     background-position: center;
 }
 
+.banner__image__mobile {
+    display: none;
+}
+
 .banner__content {
     display: flex;
     margin-left: 128px;
@@ -25,6 +29,16 @@
     .banner__content {
         padding: 32px;
         margin-left: 0;
+        margin-top: 32px;
+    }
+
+    .banner__image { 
+        display: none;
+    }
+
+
+    .banner__image__mobile {
+        display: block;
     }
 }
 

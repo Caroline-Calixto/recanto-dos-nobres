@@ -1,27 +1,19 @@
 .cta {
-    width: 100%;
-    height: auto;
-    background-color: #377d67;
-    margin-top: 109px;
-}
-
-.cta__content {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    position: relative;
     align-items: center;
-    padding: 96px;
+    justify-content: center;
+    background-color: #377d67;
+    padding: 32px;
+}
+
+.cta__paragraph {
     color: #fff;
-}
-
-.cta__content span {
-    margin-bottom: 16px;
-    font-size: 14px;
-}
-
-.cta__content p {
-    font-size: 24px;
-    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .cta-button {
@@ -29,22 +21,8 @@
 }
 
 @media screen and (max-width: 730px) {
-    .cta__content {
-        padding: 32px;
-    }
-
-    .cta__content span {
-        font-size: 12px;
-    }
-
-    .cta__content p {
-        font-size: 16px;
-    }
-
     .cta {
         height: auto;
         margin-top: 64px;
     }
-    
-
 }

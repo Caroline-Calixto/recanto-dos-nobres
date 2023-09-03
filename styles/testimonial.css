@@ -5,6 +5,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: radial-gradient(#C8DCD5 1px, transparent 2px);
+    background-size: 50px 50px;
+}
+
+.testimonial__title {
+    color: #377d67;
 }
 
 .testimonial__card__container {
@@ -28,6 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: #fff;
 }
 
 .testimonial__card img {
@@ -60,5 +68,22 @@
 
     .testimonial__paragraph {
         display: grid;
+        text-align: center;
+    }
+
+    .testimonial__card {
+        padding: 0;
+        width: 280px;
+    }
+
+ .testimonial__card img  {
+    padding: 18px;
+ }
+
+    .testimonial__card__content {
+        padding: 16px;
+        margin-right: 0;
+        gap: 0;
+        text-align: start;
     }
 }

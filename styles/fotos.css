@@ -1,0 +1,39 @@
+.midia {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.midia__page__header {
+
+}
+
+.midia__page__header__title {
+    color: #377d67;
+}
+
+.midia__page__header__description {
+
+}
+.container{
+    width: 100% ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+
+}
+
+.gallery img {
+    width: 100%;
+}

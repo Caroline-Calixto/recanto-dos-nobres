@@ -1,4 +1,4 @@
-.section-tittle {
+.section-title {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -70,6 +70,7 @@
     min-height: 230px;
     min-width: 232px;
 }
+
 
 @media screen and (max-width: 730px) {
     .service__title {
