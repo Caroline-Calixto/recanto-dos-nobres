@@ -2,6 +2,11 @@
     background-color: #489681;
     width: 100%;
     height: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 
 header {

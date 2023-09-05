@@ -10,6 +10,11 @@
     display: none;
 }
 
+.banner__paragraph {
+    background-color: rgba(55, 125, 103, 0.3);
+    font-weight: 600;
+}
+
 .banner__content {
     display: flex;
     margin-left: 128px;
