@@ -93,7 +93,13 @@ body {
     bottom: 0;
     height: 1px;
     margin-bottom: 64px;
-  }
+}
+
+.logotipo {
+    width: 88px;
+    height: 88px;
+}
+
 
 @media screen and (max-width: 730px) {
     .title {
