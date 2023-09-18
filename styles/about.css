@@ -88,7 +88,8 @@
 
 .about__page__story__text {
     padding: 24px 64px;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .about__page__img {
